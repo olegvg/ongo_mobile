@@ -1,0 +1,563 @@
+{
+  "master-categories" : {
+    "cat" : {
+      "c1": {
+        "selName" : "Творог \"Благода\" обезжиренный"
+    },
+      "c2": {
+      "selName" : "Творог \"Благода\" низкокалорийный"
+    },
+      "c3": {
+      "selName" : "Творог \"Благода\" крестьянский"
+    },
+      "c4": {
+      "selName" : "Творог \"Благода\" традиционный"
+    },
+      "c5": {
+      "selName" : "Творог  \"Благода\" обезжиренный"
+    },
+      "c6": {
+      "selName" : "Творог \"Благода\" крестьянский"
+    },
+      "c7": {
+      "selName" : "Сметана  20% \"Благода\", 200 гр."
+    },
+      "c8": {
+      "selName" : "Сметана 15% \"Благода\", 450 гр"
+    },
+      "c9": {
+      "selName" : "Сметана 20% \"Благода\", 450 гр."
+    },
+      "c10": {
+      "selName" : "Сметана15% \"Благода\", 200 гр."
+    },
+      "c11": {
+      "selName" : "Пудинг-десерт с какао и кремом в обсыпке   «МонЖур», 100 гр"
+    },
+      "c12": {
+      "selName" : "Пудинг-десерт ванильный с кремом в обсыпке  «МонЖур», 100 гр"
+    },
+      "c13": {
+      "selName" : "Пудинг-десерт лимонный с кремом в обсыпке  «МонЖур», 100 гр"
+    },
+      "c14": {
+      "selName" : "Пудинг-десерт карамельный с кремом в обсыпке «МонЖур», 100 гр."
+    }},
+    "last-changed" : "1"
+    },
+  "points" : {
+    "last-changed" : 1,
+    "pts" : [ {
+      "address" : "Russian Federation, Moscow, Tverskaya Street, 4",
+      "coords" : [ "55.758493", "37.613198" ],
+      "id" : "0200356366",
+      "name" : "ООО \"СИСТЕМА\"  ",
+      "reserved" : "busy"
+    }, {
+      "address" : "Russian Federation, Moscow, Borovskoye Highway, 6",
+      "coords" : [ "55.658794", "37.401905" ],
+      "id" : "0200234296",
+      "name" : "ООО \"Тести Чойс\"  ",
+      "reserved" : "semi"
+    }, {
+      "address" : "Russian Federation, Moscow, Novoyasenevsky Avenue, вл12",
+      "coords" : [ "55.610621", "37.518398" ],
+      "id" : "0200222380",
+      "name" : "ООО \"МИДАС и К\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Marshala Katukova Street, 23",
+      "coords" : [ "55.805665", "37.413367" ],
+      "id" : "0200483910",
+      "name" : "ООО \"БУРГЕР РУС\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Malaya Lubyanka Street, 16",
+      "coords" : [ "55.764131", "37.631541" ],
+      "id" : "0200239302",
+      "name" : "ООО \"Лубянка-М\"  ",
+      "reserved" : "semi"
+    }, {
+      "address" : "Russian Federation, Moscow, Beskudnikovsky Boulevard, 12",
+      "coords" : [ "55.861802", "37.562955" ],
+      "id" : "0200317524",
+      "name" : "ООО \"БАЛЛАРД\"  ",
+      "reserved" : "semi"
+    }, {
+      "address" : "Russian Federation, Moscow, Vorotynskaya Street, 2",
+      "coords" : [ "55.887387", "37.402677" ],
+      "id" : "0200488226",
+      "name" : "ИП СИДЕЛЬНИКОВ МИХАИЛ АЛЕКСАНДРОВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Veshnyakovskaya Street, 12Ж",
+      "coords" : [ "55.734785", "37.820331" ],
+      "id" : "0200214200",
+      "name" : "ИП ЗАВАЛУНОВ ЗАХАР АЛЕКСАНДРОВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Ochakovskoye Highway, 26",
+      "coords" : [ "55.68699", "37.444395" ],
+      "id" : "0200235901",
+      "name" : "ООО \"МЭГС\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Yuzhnobutovskaya Street, 52",
+      "coords" : [ "55.537704", "37.531595" ],
+      "id" : "0200232756",
+      "name" : "ИП КОНЯКИН ЕВГЕНИЙ ЮРЬЕВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Krasnoproletarskaya Street, 4",
+      "coords" : [ "55.77474", "37.608472" ],
+      "id" : "0200222179",
+      "name" : "ООО \"Аверон\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Milyutinsky Lane, 7А",
+      "coords" : [ "55.763047", "37.631712" ],
+      "id" : "0200363591",
+      "name" : "ООО \"Содексо ЕвроАзия\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Yablochkova Street, 12",
+      "coords" : [ "55.81827", "37.58146" ],
+      "id" : "0200245205",
+      "name" : "ООО \"Маф и Я\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Mira Avenue, 74с1",
+      "coords" : [ "55.789699", "37.635224" ],
+      "id" : "0200218627",
+      "name" : "ООО \"Корстар\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Leningradskoye Highway, 16А",
+      "coords" : [ "55.823879", "37.497216" ],
+      "id" : "0200218176",
+      "name" : "ОП Кинотеатр \"Киностар Майами\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Federativny Avenue, 9к1",
+      "coords" : [ "55.756954", "37.801799" ],
+      "id" : "0200476644",
+      "name" : "ИП Меркулов Евгений Владимирович  "
+    }, {
+      "address" : "Russian Federation, Moscow, Leningradskoye Highway, 9к1",
+      "coords" : [ "55.816642", "37.498617" ],
+      "id" : "0200241799",
+      "name" : "ООО \"Торговая компания \"Марко\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, 3rd Krutitsky Lane, 13",
+      "coords" : [ "55.730547", "37.663512" ],
+      "id" : "0200242116",
+      "name" : "ООО \"ЗАОДНО\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Arkhitektora Vlasova Street, вл2Вс1",
+      "coords" : [ "55.677225", "37.549687" ],
+      "id" : "0200247717",
+      "name" : "ООО \"ВЕМЕС\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Izhorskaya Street, 31Б",
+      "coords" : [ "55.895833", "37.525989" ],
+      "id" : "0200243931",
+      "name" : "ООО \"Газпромнефть-Центр\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Leningradsky Avenue, 15",
+      "coords" : [ "55.78036", "37.570303" ],
+      "id" : "0200247581",
+      "name" : "ООО \"Традиции Империи\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Perovskoye Highway, 18/1",
+      "coords" : [ "55.736255", "37.752939" ],
+      "id" : "0200473205",
+      "name" : "ООО \"САМОТЕКА\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Otradnaya Street, 20",
+      "coords" : [ "55.854133", "37.61865" ],
+      "id" : "0200377846",
+      "name" : "ООО \"ЛЕДА\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Marshala Malinovskogo Street, 3",
+      "coords" : [ "55.789279", "37.493883" ],
+      "id" : "0200350617",
+      "name" : "ООО \"Инвестпроект\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Barklaya Street, 26",
+      "coords" : [ "55.75168", "37.494521" ],
+      "id" : "0200222513",
+      "name" : "ООО \"Газпромнефть-Центр\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Grizodubovoy Street, 2",
+      "coords" : [ "55.782572", "37.531936" ],
+      "id" : "0200233727",
+      "name" : "ООО \"Гарант-Трейд М\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Novoslobodskaya Street, 45кБ",
+      "coords" : [ "55.784546", "37.595582" ],
+      "id" : "0200461207",
+      "name" : "ИП Красовская И.А.. "
+    }, {
+      "address" : "Russian Federation, Moscow, MKAD, 71-y kilometr, с16А",
+      "coords" : [ "55.857579", "37.394242" ],
+      "id" : "0200221876",
+      "name" : "ООО \"АРТ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Sirenevy Boulevard, 54",
+      "coords" : [ "55.802376", "37.822595" ],
+      "id" : "0200220367",
+      "name" : "ООО \"Агроторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Strastnoy Boulevard, 8А",
+      "coords" : [ "55.766258", "37.610826" ],
+      "id" : "0200373430",
+      "name" : "ИП ГОНЦОВ ВАСИЛИЙ АЛЕКСАНДРОВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Malaya Sukharevskaya Square, 6с1",
+      "coords" : [ "55.772765", "37.629421" ],
+      "id" : "0200227348",
+      "name" : "ООО \"Продторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Krasnogvardeysky Boulevard, 7А",
+      "coords" : [ "55.760033", "37.542141" ],
+      "id" : "0200240000",
+      "name" : "ООО \"Альфа-М\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Kargopolskaya Street, 11к1",
+      "coords" : [ "55.863303", "37.59109" ],
+      "id" : "0200346489",
+      "name" : "ООО \"ТД Интерторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Zolotorozhsky Val Street, 38",
+      "coords" : [ "55.748204", "37.681191" ],
+      "id" : "0200246134",
+      "name" : "ООО \"Агроторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Mira Avenue, 188Бк1",
+      "coords" : [ "55.834376", "37.657889" ],
+      "id" : "0200383690",
+      "name" : "АО \"Торговый дом \"ПЕРЕКРЕСТОК\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Korovinskoye Highway, 35А",
+      "coords" : [ "55.884146", "37.516224" ],
+      "id" : "0200247095",
+      "name" : "ИП Рыбаков Сергей Владимирович  "
+    }, {
+      "address" : "Russian Federation, Moscow, Volokolamskoye Highway, 124",
+      "coords" : [ "55.831044", "37.406037" ],
+      "id" : "0200236347",
+      "name" : "ООО \"К.С.М.\". "
+    }, {
+      "address" : "Russian Federation, Moscow, Sharikopodshipnikovskaya Street, 11с8",
+      "coords" : [ "55.72055", "37.675235" ],
+      "id" : "0200460437",
+      "name" : "ИП Хондого Валерий Анатольевич. "
+    }, {
+      "address" : "Russian Federation, Moscow, Khlobystova Street, 17",
+      "coords" : [ "55.712994", "37.820987" ],
+      "id" : "0200479908",
+      "name" : "ООО \"ТЕМП\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Pyatnitskoye Highway, 21",
+      "coords" : [ "55.847705", "37.370581" ],
+      "id" : "0200230542",
+      "name" : "ИП МОРОЗОВ ДМИТРИЙ ДЖОНОВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Ryazanovskoye Settlement, posyolok fabriki imeni 1 Maya",
+      "coords" : [ "55.485372", "37.498519" ],
+      "id" : "0200213589",
+      "name" : "АО \"ДИКСИ Юг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Bolshaya Pochtovaya Street, 26с1",
+      "coords" : [ "55.77876", "37.697837" ],
+      "id" : "0200233335",
+      "name" : "ООО \"Газпромнефть-Центр\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Raushskaya Embankment, 14",
+      "coords" : [ "55.747971", "37.632341" ],
+      "id" : "0200230423",
+      "name" : "ООО \"Компасс Групп Рус\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Novolesnaya Street, 8/12",
+      "coords" : [ "55.782785", "37.590892" ],
+      "id" : "0200241064",
+      "name" : "ООО \"Агроторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Volgogradsky Avenue, 47",
+      "coords" : [ "55.712589", "37.72387" ],
+      "id" : "0200482605",
+      "name" : "ООО \"ЛЕНЬ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Miklukho-Maklaya Street, 28А",
+      "coords" : [ "55.642199", "37.520482" ],
+      "id" : "0200230978",
+      "name" : "ООО \"ПРАССА\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Bolshaya Naberezhnaya Street, 19",
+      "coords" : [ "55.831762", "37.458571" ],
+      "id" : "0200473393",
+      "name" : "ООО \"АРГУМЕНТ-ПОЛИГРАФ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Bolshaya Tatarskaya Street, 21",
+      "coords" : [ "55.739787", "37.633517" ],
+      "id" : "0200481844",
+      "name" : "ИП Трофимов Александр Сергеевич  "
+    }, {
+      "address" : "Russian Federation, Moscow, Solovyinaya Roscha Street, 9",
+      "coords" : [ "55.895757", "37.396919" ],
+      "id" : "0200354006",
+      "name" : "ИП Хайрулина Анастасия Владимировна  "
+    }, {
+      "address" : "Russian Federation, Moscow, Malakhitovaya Street, 14",
+      "coords" : [ "55.828829", "37.66503" ],
+      "id" : "0200312293",
+      "name" : "ИП Алиева Малахат Исраил кызы  "
+    }, {
+      "address" : "Russian Federation, Moscow, Ivana Susanina Street, 4А",
+      "coords" : [ "55.866116", "37.529403" ],
+      "id" : "0200245887",
+      "name" : "ООО \"АБК Ритейл\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Narodnogo Opolcheniya Street, 3",
+      "coords" : [ "55.770142", "37.47368" ],
+      "id" : "0200223260",
+      "name" : "ООО \"ПРОДУКТОФ МНЕВНИКИ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Altufyevskoye Highway, 40Д",
+      "coords" : [ "55.87096", "37.591153" ],
+      "id" : "0200316235",
+      "name" : "ООО \"НЕМИ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Marshala Rybalko Street, 1",
+      "coords" : [ "55.795398", "37.495437" ],
+      "id" : "0200222220",
+      "name" : "ГБУК г. Москвы Московское кино  "
+    }, {
+      "address" : "Russian Federation, Moscow, Meschanskaya Street, 12",
+      "coords" : [ "55.776305", "37.627912" ],
+      "id" : "0200237883",
+      "name" : "ИП ГОЛОВ ОЛЕГ АНДРЕЕВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Suzdalskaya Street, 46",
+      "coords" : [ "55.746314", "37.88059" ],
+      "id" : "0200221109",
+      "name" : "ООО \"ТФ ПРОДЖЕКТ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Leningradsky Avenue, вл31",
+      "coords" : [ "55.784977", "37.56194" ],
+      "id" : "0200482669",
+      "name" : "ЗАО \"АМИ-сто\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Pyatnitskoye Highway, 18",
+      "coords" : [ "55.844324", "37.383642" ],
+      "id" : "0200452932",
+      "name" : "ИП Рябчиков Е.А.  "
+    }, {
+      "address" : "Russian Federation, Moscow, Novodmitrovskaya Street, 5А",
+      "coords" : [ "55.806469", "37.58747" ],
+      "id" : "0200477240",
+      "name" : "ИП Борисов Илья Юрьевич  "
+    }, {
+      "address" : "Russian Federation, Moscow, Izmaylovsky Drive, 7к1",
+      "coords" : [ "55.79685", "37.768112" ],
+      "id" : "0200465974",
+      "name" : "ООО \"Агроторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Kutuzovsky Avenue, 12А",
+      "coords" : [ "55.748473", "37.557556" ],
+      "id" : "0200394846",
+      "name" : "ИП Мокин К.А.  "
+    }, {
+      "address" : "Russian Federation, Moscow, Businovskaya Gorka Street, 2Б",
+      "coords" : [ "55.887629", "37.496785" ],
+      "id" : "0200479547",
+      "name" : "ООО \"ПИТ-СТОП Плюс\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Varshavskoye Highway, 34",
+      "coords" : [ "55.680311", "37.623483" ],
+      "id" : "0200380393",
+      "name" : "ООО \"Сабвэйлэнд\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Orekhovy Boulevard, 14к1А",
+      "coords" : [ "55.610311", "37.715758" ],
+      "id" : "0200233370",
+      "name" : "ООО \"СК ИГРУШКИН\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Paustovskogo Street, 6А",
+      "coords" : [ "55.599713", "37.539203" ],
+      "id" : "0200468597",
+      "name" : "ООО \"Пи Джей Евразия\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Kholmogorskaya Street, 1",
+      "coords" : [ "55.87944", "37.719334" ],
+      "id" : "0200248478",
+      "name" : "ИП АБРАМОВА СВЕТЛАНА АНАТОЛЬЕВНА  "
+    }, {
+      "address" : "Russian Federation, Moscow, 5th Donskoy Drive, 15",
+      "coords" : [ "55.707415", "37.598869" ],
+      "id" : "0200227910",
+      "name" : "ООО \"Ямми Микс\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Khoroshovskoye Highway, 39",
+      "coords" : [ "55.777069", "37.514329" ],
+      "id" : "0200235791",
+      "name" : "ООО \"Трейд Сервис\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Novodanilovskaya Embankment, 2к1",
+      "coords" : [ "55.702353", "37.625478" ],
+      "id" : "0200358006",
+      "name" : "ООО \"РОСРЕЧФЛОТ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Generala Karbysheva Boulevard, 13к1",
+      "coords" : [ "55.781236", "37.469611" ],
+      "id" : "0200227559",
+      "name" : "ООО \"Паляница\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Tikhvinskaya Street, 3к1",
+      "coords" : [ "55.785898", "37.600891" ],
+      "id" : "0200320998",
+      "name" : "АО \"СПАР РИТЭЙЛ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Belomorskaya Street, 11к1",
+      "coords" : [ "55.865152", "37.472081" ],
+      "id" : "0200228788",
+      "name" : "ИП ДЕРЕВЕНЕЦ ДЕНИС ВАЛЕРЬЕВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, 1st Varshavsky Drive, 1А",
+      "coords" : [ "55.64796", "37.626169" ],
+      "id" : "0200245997",
+      "name" : "ООО \"Акватэрра\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Kaluzhskoye shosse, 22-y kilometr",
+      "coords" : [ "55.594733", "37.478585" ],
+      "id" : "0200245185",
+      "name" : "ИП ГУСЕЙНОВ МИГДАД САНАН ОГЛЫ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Chertanovskaya Street, 9А",
+      "coords" : [ "55.628408", "37.602912" ],
+      "id" : "0200236495",
+      "name" : "ООО \"ЗАОДНО\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Alabyana Street, 13к1",
+      "coords" : [ "55.799937", "37.505903" ],
+      "id" : "0200462519",
+      "name" : "ООО \"АНТОНИО\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Entuziastov Highway, 5",
+      "coords" : [ "55.748665", "37.695025" ],
+      "id" : "0200232701",
+      "name" : "ООО \"Спектр Систем Кейтеринг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Preobrazhensky Val Street, 14",
+      "coords" : [ "55.793465", "37.714276" ],
+      "id" : "0200488214",
+      "name" : "ИП ГОЛОВ ОЛЕГ АНДРЕЕВИЧ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Presnenskaya Embankment, 2",
+      "coords" : [ "55.74906", "37.539347" ],
+      "id" : "0200247132",
+      "name" : "ИП Ладыгина Оксана Владимировна  "
+    }, {
+      "address" : "Russian Federation, Moscow, Filyovskaya Line, metro Fili",
+      "coords" : [ "55.74597", "37.514949" ],
+      "id" : "0200246139",
+      "name" : "ИП Черубаева Г.Т.  "
+    }, {
+      "address" : "Russian Federation, Moscow, 2nd Kotlyakovsky Lane",
+      "coords" : [ "55.645781", "37.63429" ],
+      "id" : "0200235197",
+      "name" : "ООО \"Экспресс Персонал\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Pavlovskaya Street, 27",
+      "coords" : [ "55.712614", "37.627651" ],
+      "id" : "0200473809",
+      "name" : "ООО \"Лофт\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Profsoyuznaya Street, 87/49",
+      "coords" : [ "55.642926", "37.528091" ],
+      "id" : "0200226207",
+      "name" : "ООО \"Торговая компания \"Марко\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Varshavskoye Highway, 145к1",
+      "coords" : [ "55.580482", "37.598061" ],
+      "id" : "0200335406",
+      "name" : "ИП МИРЗОЕВ ИЛГАР НАРИМАН ОГЛЫ  "
+    }, {
+      "address" : "Russian Federation, Moscow, Paveletskaya Square, 1А",
+      "coords" : [ "55.729741", "37.639455" ],
+      "id" : "0200479441",
+      "name" : "ООО \"Бэст Прайс\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Lyotchika Babushkina Street, 31",
+      "coords" : [ "55.870435", "37.675002" ],
+      "id" : "0200239812",
+      "name" : "ООО \"ТОВАРИЩ\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Golubinskaya Street, 28",
+      "coords" : [ "55.595094", "37.54153" ],
+      "id" : "0200457788",
+      "name" : "ООО \"ТрейдПартнер\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Yunykh Lenintsev Street, 115",
+      "coords" : [ "55.697762", "37.785665" ],
+      "id" : "0200240903",
+      "name" : "ООО \"Агроторг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Mira Avenue, 102",
+      "coords" : [ "55.800438", "37.636706" ],
+      "id" : "0200353704",
+      "name" : "ООО \"Авинир\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Vernadskogo Avenue, 7",
+      "coords" : [ "55.69449", "37.54029" ],
+      "id" : "0200245785",
+      "name" : "ФГУП \"Большой Московский цирк\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Lomonosovsky Avenue, 27",
+      "coords" : [ "55.698924", "37.52324" ],
+      "id" : "0200234988",
+      "name" : "ФГБОУ ВПО \"МГУ им. М.В. Ломоносова\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Dmitrovskoye Highway, 95А",
+      "coords" : [ "55.871486", "37.543524" ],
+      "id" : "0200324767",
+      "name" : "ООО \"МАДИНА\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Mitinskaya Street, 21",
+      "coords" : [ "55.843318", "37.365191" ],
+      "id" : "0200460738",
+      "name" : "АО \"Торговый дом \"ПЕРЕКРЕСТОК\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Andropova Avenue, 48",
+      "coords" : [ "55.669295", "37.660566" ],
+      "id" : "0200229677",
+      "name" : "АО \"Дикси Юг\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Orekhovy Boulevard, 14к1А",
+      "coords" : [ "55.610311", "37.715758" ],
+      "id" : "0200237146",
+      "name" : "ИП Ким Александр Витальевич  "
+    }, {
+      "address" : "Russian Federation, Moscow, 1st Tverskoy-Yamskoy Lane, 14",
+      "coords" : [ "55.772831", "37.598169" ],
+      "id" : "0200242932",
+      "name" : "ООО \"МИКС\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Malaya Pioneskaya Street, 12",
+      "coords" : [ "55.728358", "37.63517" ],
+      "id" : "0200225737",
+      "name" : "ООО \"Оливер-Экспресс\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Novomaryinskaya Street, 14/15",
+      "coords" : [ "55.654228", "37.7585" ],
+      "id" : "0200214150",
+      "name" : "ООО \"Бэст Прайс\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, 2nd Kozhevnichesky Lane, 12",
+      "coords" : [ "55.725676", "37.646848" ],
+      "id" : "0200483278",
+      "name" : "ООО \"СК-МАЛИНА\"  "
+    }, {
+      "address" : "Russian Federation, Moscow, Leningradsky Avenue, 74",
+      "coords" : [ "55.805189", "37.516727" ],
+      "id" : "0200364985",
+      "name" : "ИП Шалунов Я.Я.  "
+    } ]
+  },
+  "users" : {
+    "A7zEK6gJ3aUaXjY9WMCYNMkDEm93" : {
+      "firstName" : "Oleg",
+      "lastLoggedIn" : 1505689251794,
+      "lastName" : "Gaidukov"
+    }
+  }
+}
