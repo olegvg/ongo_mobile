@@ -38,6 +38,7 @@ import {
   SwitchesList,
   FormInput,
   FormLabel,
+  ClusteredMap
 } from '../../../components/ui/';
 
 // import { ListItem } from 'react-native-elements';
@@ -119,7 +120,7 @@ class OngoTabs extends Component {
     this.updateFilter(props);
   }
 
-  componentDidMount = () => {
+  componentDidMount() {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         this.setState({
@@ -141,7 +142,7 @@ class OngoTabs extends Component {
     );
   };
 
-  componentWillReceiveProps = nextProps => this.updateFilter(nextProps);
+  componentWillReceiveProps(nextProps) { this.updateFilter(nextProps); };
 
   updateFilter = (props) => {
     this.state.categoryFilter = { ...props.categories };
@@ -211,33 +212,7 @@ class OngoTabs extends Component {
       case '1' :
         return (
           <View style={styles.container}>
-            <MapView
-              /* eslint no-return-assign: 0 */
-              ref={ref => this.mapView = ref}
-              style={styles.map}
-              showsUserLocation
-              clusterColor={AppColors.pinColors.free}
-              clusterTextColor="#fff"
-              clusterBorderColor="#fff"
-              onClusterPress={coordinate => this.animateClusterPress(coordinate)}
-              region={{
-                latitude: this.state.position.latitude,
-                longitude: this.state.position.longitude,
-                latitudeDelta: 0.15,
-                longitudeDelta: 0.121,
-              }}
-            >
-              {Object.keys(this.props.points).map(k => (
-                <Marker
-                  key={v1()}
-                  coordinate={this.props.points[k].coords}
-                  title={this.props.points[k].name}
-                  description={this.state.pointsState[k] === 'busy' ? 'Все категории заняты' : 'Нажмите для выбора категорий'}
-                  pinColor={AppColors.pinColors[this.state.pointsState[k]]}
-                  onCalloutPress={this.handleCalloutPress(k)}
-                />
-              ))}
-            </MapView>
+            <ClusteredMap geoData={this.props.points} />
           </View>
         );
       case '2' :
@@ -317,3 +292,33 @@ class OngoTabs extends Component {
 
 /* Export Component ==================================================================== */
 export default OngoTabs;
+
+/*
+ *             <MapView
+              /* eslint no-return-assign: 0 */ /*
+              ref={ref => this.mapView = ref}
+              style={styles.map}
+              showsUserLocation
+              clusterColor={AppColors.pinColors.free}
+              clusterTextColor="#fff"
+              clusterBorderColor="#fff"
+              onClusterPress={coordinate => this.animateClusterPress(coordinate)}
+              region={{
+                latitude: this.state.position.latitude,
+                longitude: this.state.position.longitude,
+                latitudeDelta: 0.15,
+                longitudeDelta: 0.121,
+              }}
+            >
+              {Object.keys(this.props.points).map(k => (
+                <Marker
+                  key={v1()}
+                  coordinate={this.props.points[k].coords}
+                  title={this.props.points[k].name}
+                  description={this.state.pointsState[k] === 'busy' ? 'Все категории заняты' : 'Нажмите для выбора категорий'}
+                  pinColor={AppColors.pinColors[this.state.pointsState[k]]}
+                  onCalloutPress={this.handleCalloutPress(k)}
+                />
+              ))}
+            </MapView>
+ */
