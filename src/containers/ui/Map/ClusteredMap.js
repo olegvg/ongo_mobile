@@ -10,15 +10,15 @@ import { StyleSheet, View, Dimensions } from 'react-native';
 
 import MapView from 'react-native-maps';
 import supercluster from 'supercluster';
-import MapClusterMarker from './ClusterMarker';
+import { ClusterMarker } from './MapContainer';
+
+// Consts and Libs
+import { AppColors } from '../../../theme/index';
 
 const { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
-const LATITUDE = 55.7552062; // your starting lat
-const LONGITUDE = 37.6203287; // your starting lng
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-const SPACE = 0.01;
 
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
@@ -39,10 +39,18 @@ class ClusteredMap extends Component {
 
   static propTypes = {
     geoData: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+    region: PropTypes.object.isRequired,  // eslint-disable-line react/forbid-prop-types
+    clusterColor: PropTypes.string,
+    clusterTextColor: PropTypes.string,
+    clusterBorderColor: PropTypes.string,
   };
 
   static defaultProps = {
     geoData: {},
+    region: {},
+    clusterColor: AppColors.pinColors.free,
+    clusterTextColor: '#fff',
+    clusterBorderColor: '#fff',
   };
 
   static createCluster(geoData) {
@@ -53,7 +61,11 @@ class ClusteredMap extends Component {
 
     const places = Object.keys(geoData).map(k => ({
       type: 'Feature',
-      geometry: { type: 'Point', coordinates: [geoData[k].coords.longitude, geoData[k].coords.latitude]},
+      geometry: {
+        type: 'Point',
+        coordinates: [geoData[k].coords.longitude, geoData[k].coords.latitude]
+      },
+      pointKey: k,
     }));
 
     try {
@@ -68,28 +80,24 @@ class ClusteredMap extends Component {
   constructor(props) {
     super(props);
 
-    // this.createCluster = this.createCluster.bind(this);
-    // this.getMarkers = this.getMarkers.bind(this);
-    // this.getZoomLevel = this.getZoomLevel.bind(this);
-    // this.onRegionChange = this.onRegionChange.bind(this);
-
     const cluster = ClusteredMap.createCluster(this.props.geoData);
 
     this.state = {
       region: {
-        latitude: LATITUDE,
-        longitude: LONGITUDE,
+        ...props.region,
         latitudeDelta: LATITUDE_DELTA,
         longitudeDelta: LONGITUDE_DELTA,
       },
       cluster,
       markers: null,
+      superMapProps: null,
     };
     this.state.markers = this.getMarkers(cluster, this.state.region);
-
   }
 
   componentWillReceiveProps(nextProps) {
+    this.state.superMapProps = nextProps; // Propagate props to underlying <MapView>
+
     const cluster = ClusteredMap.createCluster(nextProps.geoData);
     if (cluster) {
       const markers = this.getMarkers(cluster, this.state.region);
@@ -140,23 +148,15 @@ class ClusteredMap extends Component {
   }
 
   renderMarkers() {
-    return this.state.markers.map((marker, i) => (
-      <MapView.Marker
-        key={i}
-        coordinate={{
-          latitude: marker.geometry.coordinates[1],
-          longitude: marker.geometry.coordinates[0],
-        }}
-      >
-        <MapClusterMarker {...marker} />
-      </MapView.Marker>
-      ));
+    return this.state.markers.map(marker => (<ClusterMarker {...marker} />));
   }
 
   render() {
     return (
       <View style={styles.container}>
         <MapView
+          {...this.state.superMapProps} // Propagate <ClusteredMap> props to underlying <MapView>
+          /* eslint no-return-assign: 0 */
           style={styles.map}
           region={this.state.region}
           onRegionChange={this.onRegionChange}
