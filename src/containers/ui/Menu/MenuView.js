@@ -43,6 +43,33 @@ const styles = StyleSheet.create({
     backgroundColor: MENU_BG_COLOR,
   },
 
+  moneyBanner_text1: {
+    fontSize: 20,
+    lineHeight: parseInt(20 + (20 * 0.5), 10),
+    fontWeight: '500',
+    marginTop: 14,
+    marginBottom: 8,
+    color: '#EEEFF0',
+  },
+
+  moneyBanner_text2: {
+    fontSize: 27,
+    lineHeight: parseInt(27 + (27 * 0.5), 10),
+    fontWeight: '500',
+    marginTop: 14,
+    marginBottom: 8,
+    color: '#EEEFF0',
+  },
+
+  moneyBanner_text3: {
+    fontSize: 20,
+    lineHeight: parseInt(27 + (27 * 0.5), 10),
+    fontWeight: '500',
+    marginTop: 14,
+    marginBottom: 8,
+    color: '#EEEFF0',
+  },
+
   // Main Menu
   menu: {
     flex: 3,
@@ -86,6 +113,7 @@ class Menu extends Component {
     closeSideMenu: PropTypes.func.isRequired,
     user: PropTypes.shape({
       email: PropTypes.string,
+      balance: PropTypes.number,
     }),
     unauthMenu: PropTypes.arrayOf(PropTypes.shape({})),
     authMenu: PropTypes.arrayOf(PropTypes.shape({})),
@@ -136,11 +164,29 @@ class Menu extends Component {
     </TouchableOpacity>
   );
 
+  moneyBanner = () => {
+    if (this.props.user && this.props.user.email && this.props.user.balance) {
+      let balance = parseFloat(this.props.user.balance);
+      balance = balance.toFixed(2);
+      return (
+        <View style={[styles.menuItem]}>
+          <Text style={[styles.moneyBanner_text1]}>
+            Твой баланс на сегодня
+          </Text>
+          <Text style={[styles.moneyBanner_text2]}>
+            {balance} <Text style={[styles.moneyBanner_text3]}>руб.</Text>
+          </Text>
+        </View>
+      );
+    }
+    return (<Text />);
+  };
+
   /**
    * Build the Menu List
    */
   menuList = () => {
-    // Determine which menu to use - authenticated user menu or unauthenicated version?
+    // Determine which menu to use - authenticated user menu or unauthenticated version?
     let menu = this.props.unauthMenu;
     if (this.props.user && this.props.user.email) menu = this.props.authMenu;
 
@@ -152,7 +198,7 @@ class Menu extends Component {
       <View style={[styles.backgroundFill]} />
 
       <View style={[styles.menuContainer]}>
-        <View style={[styles.menu]}>{this.menuList()}</View>
+        <View style={[styles.menu]}>{this.moneyBanner()}{this.menuList()}</View>
 
         <View style={[styles.menuBottom]}>
           {this.props.user && this.props.user.email ?
