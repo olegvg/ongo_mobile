@@ -44,6 +44,11 @@ const pinColors = {
     free: '#59A96A',
     busy: '#FE5F55',
     semi: '#FDE74C',
+},
+  clusterColors: {
+    borderColor: '#5cb26d',
+    bodyColor: '#59A96A',
+    textColor: text.textPrimary,
   },
 };
 

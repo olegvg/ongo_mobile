@@ -17,7 +17,6 @@ import SwitchesList from './SwitchesList';
 import FormInput from './FormInput';
 import FormLabel from './FormLabel';
 import FormValidationMessage from './FormValidationMessage';
-import ClusteredMap from './ClusteredMap';
 
 export {
   Alerts,
@@ -32,5 +31,4 @@ export {
   FormInput,
   FormLabel,
   FormValidationMessage,
-  ClusteredMap,
 };
