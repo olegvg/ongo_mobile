@@ -91,7 +91,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "25.0.1"
 
     signingConfigs {
       release {
@@ -119,7 +119,7 @@ android {
         defaultConfig {
             applicationId "com.ongomobile"
             versionCode code
-            versionName "1.0.4"
+            versionName "1.0.7"
             minSdkVersion 16
             targetSdkVersion 22
             ndk {
@@ -162,6 +162,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-svg')
     compile (project(':react-native-maps')){
         exclude group: 'com.google.android.gms', module: 'play-services-base'
         exclude group: 'com.google.android.gms', module: 'play-services-maps'

@@ -30,6 +30,7 @@ export default function userReducer(state = initialState, action) {
           firstName: input.firstName,
           lastName: input.lastName,
           signedUp: input.signedUp,
+          balance: input.balance,
           invertedCatFilter: input.invertedCatFilter,
           role: input.role,
         };
